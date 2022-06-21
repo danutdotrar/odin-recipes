@@ -1,0 +1,24 @@
+body {
+    background-color: lightgrey;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.item1,
+.item2 {
+    align-items: flex-start;
+}
+
+a {
+    color: black;
+}
+
+a:hover{
+    color:red;
+    letter-spacing: 1px;
+    transition: .2s linear;
+}
